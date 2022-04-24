@@ -15,7 +15,6 @@ addButton.addEventListener("click", handleInput);
 //function handles input and call addNode() with input value
 function handleInput() {
   var inputVal = input.value;
-  console.log(inputVal);
   if (inputVal != "") {
     addNode(inputVal);
   }
